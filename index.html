@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smoothie Machine | COMP1073 Client-Side JavaScript</title>
+    <link rel="icon" href="img/icons8-smoothie-96.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <form>
+        <h1>Smoothie Maker</h1>
+        <p>Please enter your order below:<br>
+          (Please pick one of each)</p>
+        <h2>Fruits:</h2>
+        <div class="card-container">
+
+            <div class="card">
+                <div class="text">
+                    <p>Strawberries</p>
+                    <div class="fruit-container">
+                        <img src="img/fruits/icons8-strawberry-96.png" class="fruit" alt="strawberry icon">
+                    </div>
+                    <p><input type="radio" value="strawberries" id="fruits" name="fruitOption"></p>
+                </div>
+            </div>
+
+                <div class="card">
+                    <div class="text">
+                        <p>Bananas</p>
+                        <div class="fruit-container">
+                            <img src="img/fruits/icons8-banana-96.png" class="fruit" alt="banana icon">
+                        </div>
+                        <p><input type="radio" value="bananas" id="fruits" name="fruitOption" required></p>
+                    </div>
+                </div>
+
+                    <div class="card">
+                        <div class="text">
+                            <p>Berries</p>
+                            <div class="fruit-container">
+                                <img src="img/fruits/icons8-blueberry-96.png" class="fruit" alt="blueberry icon">
+                            </div>
+                            <p><input type="radio" value="berries" id="fruits" name="fruitOption"></p>
+                        </div>
+                    </div>
+
+                        <div class="card">
+                            <div class="text">
+                                <p>Apples</p>
+                                <div class="fruit-container">
+                                    <img src="img/fruits/icons8-apple-fruit-96.png" class="fruit" alt="apple icon">
+                                </div>
+                                <p><input type="radio" value="apples" id="fruits" name="fruitOption"></p>
+                            </div>
+                        </div>
+        </div> 
+
+                        <h3>Veggies:</h3>
+                        <div class="card-container">
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Carrots</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-carrot-96.png" class="veggie" alt="carrot icon">
+                                    </div>
+                                    <p><input type="radio" value="carrots" name="veggieOption"></p>
+                                </div>
+                            </div>
+
+                                <div class="card">
+                                    <div class="text">
+                                        <p>Beets</p>
+                                        <div class="fruit-container">
+                                            <img src="img/fruits/icons8-beet-96.png" class="veggie" alt="beet icon">
+                                        </div>
+                                        <p><input type="radio" value="beets" name="veggieOption"></p>
+                                    </div>
+                                </div>
+
+                                    <div class="card">
+                                        <div class="text">
+                                            <p>Spinach</p>
+                                            <div class="fruit-container">
+                                                <img src="img/fruits/icons8-spinach-96.png" class="veggie" alt="spinach icon">
+                                            </div>
+                                            <p><input type="radio" value="spinach" name="veggieOption"></p>
+                                        </div>
+                                    </div>
+
+                                        <div class="card">
+                                            <div class="text">
+                                                <p>Squash</p>
+                                                <div class="fruit-container">
+                                                    <img src="img/fruits/icons8-squash-96.png" class="veggie" alt="carrot icon">
+                                                </div>
+                                                <p><input type="radio" value="squash" name="veggieOption"></p>
+                                            </div>
+                                        </div>
+                        </div>
+                        <h4>Base:</h4>
+                        <div class="card-container">
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Milk</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-milk-96.png" class="base" alt="milk icon">
+                                    </div>
+                                    <p><input type="radio" value="milk" name="baseOption"></p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Water</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-water-96.png" class="base" alt="water icon">
+                                    </div>
+                                    <p><input type="radio" value="water" name="baseOption"></p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Yogurt</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-yogurt-96.png" class="base" alt="yogurt icon">
+                                    </div>
+                                    <p><input type="radio" value="yogurt" name="baseOption"></p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Juice</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-juice-96.png" class="base" alt="juice icon">
+                                    </div>
+                                    <p><input type="radio" value="juice" name="baseOption"></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <h5>Sweetener:</h5>
+                        <div class="card-container">
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Honey</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-honey-96.png" class="sweetener" alt="honey icon">
+                                    </div>
+                                    <p><input type="radio" value="honey" name="sweetenerOption"></p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Sugar</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-sugar-96.png" class="sweetener" alt="sugar icon">
+                                    </div>
+                                    <p><input type="radio" value="sugar" name="sweetenerOption"></p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Syrup</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-syrup-96.png" class="sweetener" alt="syrup icon">
+                                    </div>
+                                    <p><input type="radio" value="syrup" name="sweetenerOption"></p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="text">
+                                    <p>Vanilla</p>
+                                    <div class="fruit-container">
+                                        <img src="img/fruits/icons8-vanilla-96.png" class="sweetener" alt="vanilla icon">
+                                    </div>
+                                    <p><input type="radio" value="vanilla" name="sweetenerOption"></p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <br>
+                        <input type="button" class="orderButton" value="Order">
+                        
+                        <div class="order-container">
+                        <!-- <p id="output"></p> -->
+                        <p id="output"></p>
+                        <br>
+                        <!-- <img src="img/cocktail.gif" class="cocktail"> -->
+                        </div>
+                        
+    </form>
+    <script src="js/smoothie.js"></script>
+</body>
+
+</html>
