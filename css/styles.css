@@ -11,13 +11,12 @@ html {
 
 }
 
-/* Align everything in center and add white bg color to container */
+/* Align everything in center and add white bg color and border to container */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: #F8F9FA; */
     background-color: #fff;
     border: 10px groove #9FDFDA;
     box-shadow: 5px 4px 3px 2px black;
@@ -56,15 +55,16 @@ body {
 /* Center align the order after button is clicked */
 .order-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
     margin: 3em auto;
 }
 
-
 /* Styling for buttons */
-input[type="button"] {
+input[type="button"],
+.button {
     display: flex;
     margin: 0 auto;
     font-family: 'DM Sans', sans-serif;
@@ -75,7 +75,8 @@ input[type="button"] {
     box-shadow: 1px 1px 1px 1px #c5c5c5;
 }
 
-input[type="button"]:hover {
+input[type="button"]:hover,
+.button:hover {
     cursor: pointer;
     background-color: #F8F9FA;
     color: #9FDFDA;
@@ -120,29 +121,21 @@ input[type="button"]:hover {
 /*-- TEXT --*/
 h1 {
     font-size: 3rem;
-    /* text-align: center; */
 }
 
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     font-size: 2rem;
-    /* text-align: center; */
+}
+
+h6 {
+    text-decoration: underline;
 }
 
 p {
     font-size: 1.5rem;
     font-family: 'DM Sans', sans-serif;
-    /* text-align: center; */
 }
-
-.cocktail {
-    width: 50%;
-}
-
-/* #output {
-    color: red;
-    display: inline;
-    margin: 0;
-} */

@@ -15,45 +15,52 @@
         <p>Please enter your order below:<br>
           (Please pick one of each)</p>
         <h2>Fruits:</h2>
+        <!-- Container to hold all of the cards -->
         <div class="card-container">
 
             <div class="card">
                 <div class="text">
                     <p>Strawberries</p>
+                    <p>$3.50</p>
+                    <!-- Container to hold the images of the foods -->
                     <div class="fruit-container">
                         <img src="img/fruits/icons8-strawberry-96.png" class="fruit" alt="strawberry icon">
                     </div>
-                    <p><input type="radio" value="strawberries" id="fruits" name="fruitOption"></p>
+                    <!-- Radio bubbles for all of the options -->
+                    <p><input type="radio" value="strawberries" id="fruits" name="fruitOption" data-price="3.50"></p>
                 </div>
             </div>
 
                 <div class="card">
                     <div class="text">
                         <p>Bananas</p>
+                        <p>$2.00</p>
                         <div class="fruit-container">
                             <img src="img/fruits/icons8-banana-96.png" class="fruit" alt="banana icon">
                         </div>
-                        <p><input type="radio" value="bananas" id="fruits" name="fruitOption" required></p>
+                        <p><input type="radio" value="bananas" id="fruits" name="fruitOption" data-price="2.00"></p>
                     </div>
                 </div>
 
                     <div class="card">
                         <div class="text">
                             <p>Berries</p>
+                            <p>$4.00</p>
                             <div class="fruit-container">
                                 <img src="img/fruits/icons8-blueberry-96.png" class="fruit" alt="blueberry icon">
                             </div>
-                            <p><input type="radio" value="berries" id="fruits" name="fruitOption"></p>
+                            <p><input type="radio" value="berries" id="fruits" name="fruitOption" data-price="4.00"></p>
                         </div>
                     </div>
 
                         <div class="card">
                             <div class="text">
                                 <p>Apples</p>
+                                <p>$1.50</p>
                                 <div class="fruit-container">
                                     <img src="img/fruits/icons8-apple-fruit-96.png" class="fruit" alt="apple icon">
                                 </div>
-                                <p><input type="radio" value="apples" id="fruits" name="fruitOption"></p>
+                                <p><input type="radio" value="apples" id="fruits" name="fruitOption" data-price="1.50"></p>
                             </div>
                         </div>
         </div> 
@@ -64,40 +71,44 @@
                             <div class="card">
                                 <div class="text">
                                     <p>Carrots</p>
+                                    <p>$1.50</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-carrot-96.png" class="veggie" alt="carrot icon">
                                     </div>
-                                    <p><input type="radio" value="carrots" name="veggieOption"></p>
+                                    <p><input type="radio" value="carrots" name="veggieOption" data-price="1.50"></p>
                                 </div>
                             </div>
 
                                 <div class="card">
                                     <div class="text">
                                         <p>Beets</p>
+                                        <p>$2.50</p>
                                         <div class="fruit-container">
                                             <img src="img/fruits/icons8-beet-96.png" class="veggie" alt="beet icon">
                                         </div>
-                                        <p><input type="radio" value="beets" name="veggieOption"></p>
+                                        <p><input type="radio" value="beets" name="veggieOption" data-price="2.50"></p>
                                     </div>
                                 </div>
 
                                     <div class="card">
                                         <div class="text">
                                             <p>Spinach</p>
+                                            <p>$1.00</p>
                                             <div class="fruit-container">
                                                 <img src="img/fruits/icons8-spinach-96.png" class="veggie" alt="spinach icon">
                                             </div>
-                                            <p><input type="radio" value="spinach" name="veggieOption"></p>
+                                            <p><input type="radio" value="spinach" name="veggieOption" data-price="1.00"></p>
                                         </div>
                                     </div>
 
                                         <div class="card">
                                             <div class="text">
                                                 <p>Squash</p>
+                                                <p>$3.00</p>
                                                 <div class="fruit-container">
                                                     <img src="img/fruits/icons8-squash-96.png" class="veggie" alt="carrot icon">
                                                 </div>
-                                                <p><input type="radio" value="squash" name="veggieOption"></p>
+                                                <p><input type="radio" value="squash" name="veggieOption" data-price="3.00"></p>
                                             </div>
                                         </div>
                         </div>
@@ -107,40 +118,44 @@
                             <div class="card">
                                 <div class="text">
                                     <p>Milk</p>
+                                    <p>$1.00</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-milk-96.png" class="base" alt="milk icon">
                                     </div>
-                                    <p><input type="radio" value="milk" name="baseOption"></p>
+                                    <p><input type="radio" value="milk" name="baseOption" data-price="1.50"></p>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="text">
                                     <p>Water</p>
+                                    <p>$0</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-water-96.png" class="base" alt="water icon">
                                     </div>
-                                    <p><input type="radio" value="water" name="baseOption"></p>
+                                    <p><input type="radio" value="water" name="baseOption" data-price="0"></p>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="text">
                                     <p>Yogurt</p>
+                                    <p>$2.00</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-yogurt-96.png" class="base" alt="yogurt icon">
                                     </div>
-                                    <p><input type="radio" value="yogurt" name="baseOption"></p>
+                                    <p><input type="radio" value="yogurt" name="baseOption" data-price="2.00"></p>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="text">
                                     <p>Juice</p>
+                                    <p>$1.50</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-juice-96.png" class="base" alt="juice icon">
                                     </div>
-                                    <p><input type="radio" value="juice" name="baseOption"></p>
+                                    <p><input type="radio" value="juice" name="baseOption" data-price="1.50"></p>
                                 </div>
                             </div>
 
@@ -152,55 +167,60 @@
                             <div class="card">
                                 <div class="text">
                                     <p>Honey</p>
+                                    <p>$2.00</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-honey-96.png" class="sweetener" alt="honey icon">
                                     </div>
-                                    <p><input type="radio" value="honey" name="sweetenerOption"></p>
+                                    <p><input type="radio" value="honey" name="sweetenerOption" data-price="2.00"></p>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="text">
                                     <p>Sugar</p>
+                                    <p>$0.50</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-sugar-96.png" class="sweetener" alt="sugar icon">
                                     </div>
-                                    <p><input type="radio" value="sugar" name="sweetenerOption"></p>
+                                    <p><input type="radio" value="sugar" name="sweetenerOption" data-price="0.50"></p>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="text">
                                     <p>Syrup</p>
+                                    <p>$1.00</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-syrup-96.png" class="sweetener" alt="syrup icon">
                                     </div>
-                                    <p><input type="radio" value="syrup" name="sweetenerOption"></p>
+                                    <p><input type="radio" value="syrup" name="sweetenerOption" data-price="1.00"></p>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="text">
                                     <p>Vanilla</p>
+                                    <p>$1.50</p>
                                     <div class="fruit-container">
                                         <img src="img/fruits/icons8-vanilla-96.png" class="sweetener" alt="vanilla icon">
                                     </div>
-                                    <p><input type="radio" value="vanilla" name="sweetenerOption"></p>
+                                    <p><input type="radio" value="vanilla" name="sweetenerOption" data-price="1.50"></p>
                                 </div>
                             </div>
 
                         </div>
                         <br>
+                        <!-- Adds the order button -->
                         <input type="button" class="orderButton" value="Order">
-                        
+                        <!-- Container for the complete order and receipt -->
                         <div class="order-container">
-                        <!-- <p id="output"></p> -->
                         <p id="output"></p>
-                        <br>
-                        <!-- <img src="img/cocktail.gif" class="cocktail"> -->
+                        <!-- Receipt section for JS -->
+                        <section id="receipt"></section>
                         </div>
                         
     </form>
+    <!-- Script linked -->
     <script src="js/smoothie.js"></script>
 </body>
 
