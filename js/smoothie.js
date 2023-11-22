@@ -24,8 +24,9 @@ orderButton.onclick = function() {
     
         // Adds the description to the HTML
         output.textContent = this.description;
+    }
 
-        // Adds an animated picture of the created smoothie
+    Smoothie.prototype.orderSmoothie = function() {
         var smoothie = document.createElement('img');
         smoothie.setAttribute('src', './img/smoothie.gif');
         smoothie.setAttribute('alt', 'smoothie icon');
@@ -35,6 +36,7 @@ orderButton.onclick = function() {
     
     // Creates a new smoothie using the Smoothie class
     var orderedSmoothie = new Smoothie(fruitOption, veggieOption, baseOption, sweetenerOption);
+    orderedSmoothie.orderSmoothie();
     console.log(orderedSmoothie);
 
     // Selects the receipt section in HTML
